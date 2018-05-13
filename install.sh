@@ -3,7 +3,8 @@
 # Download source code from github
 sudo apt-get install git
 git clone https://github.com/opennetworkinglab/onos.git
-cd onos && git checkout onos-1.11
+# For certain version
+#cd onos && git checkout onos-1.11
 
 # Install tools
 # Install Karaf, Maven
@@ -41,9 +42,9 @@ cd ~/onos/tools/test/cells
 . ~/.bashrc
 cell demo
 
-# install zip and unzip
+# install curl, zip, unzip
 sudo apt-get update
-sudo apt-get install zip unzip
+sudo apt-get install curl zip unzip
 
 # Build and run ONOS with buck
 # Build ONOS
@@ -53,4 +54,3 @@ ONOS_ROOT=~/onos
 cd ~/onos
 onos-buck build onos
 onos-buck run onos-local
-
