@@ -2,6 +2,7 @@
 
 # Download source code from github
 sudo apt-get install git
+cd
 git clone https://github.com/opennetworkinglab/onos.git
 # For certain version
 #cd onos && git checkout onos-1.11
@@ -53,4 +54,4 @@ ONOS_ROOT=~/onos
 . $ONOS_ROOT/tools/dev/bash_profile
 cd ~/onos
 onos-buck build onos
-onos-buck run onos-local
+#onos-buck run onos-local
