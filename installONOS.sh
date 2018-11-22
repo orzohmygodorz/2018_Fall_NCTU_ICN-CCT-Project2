@@ -5,7 +5,7 @@ sudo apt-get install git
 cd
 git clone https://github.com/opennetworkinglab/onos.git
 # For certain version
-#cd onos && git checkout onos-1.11
+cd onos && git checkout onos-1.14
 
 # Install tools
 # Install Karaf, Maven
